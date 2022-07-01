@@ -17,7 +17,7 @@ const News = (props)=>{
 
     const updateNews = async ()=> {
         props.setProgress(10);
-        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=19d1192bf431476884eab5b3c9c03dbc&page=${page}&pageSize=${props.pageSize}`; 
+        const url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=${props.apiKey}&page=${page}&pageSize=${props.pageSize}`; 
         setLoading(true)
         let data = await fetch(url);
         props.setProgress(30);
@@ -60,7 +60,15 @@ const News = (props)=>{
                     <div className="row">
                         {articles.map((element) => {
                             return <div className="col-md-4" key={element.url}>
-                                <NewsItem title={element.title ? element.title : ""} description={element.description ? element.description : ""} imageUrl={element.urlToImage} newsUrl={element.url} author={element.author} date={element.publishedAt} source={element.source.name} />
+                                <NewsItem 
+                                    title={element.title ? element.title : ""} 
+                                    description={element.description ? element.description : ""} 
+                                    imageUrl={element.urlToImage} 
+                                    newsUrl={element.url} 
+                                    author={element.author} 
+                                    date={element.publishedAt} 
+                                    source={element.source.name} 
+                                />
                             </div>
                         })}
                     </div>
