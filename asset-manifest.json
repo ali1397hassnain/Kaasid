@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Kaasid/static/css/main.12ffd73b.chunk.css",
+    "main.js": "/Kaasid/static/js/main.7aa47546.chunk.js",
+    "main.js.map": "/Kaasid/static/js/main.7aa47546.chunk.js.map",
+    "runtime-main.js": "/Kaasid/static/js/runtime-main.befeb563.js",
+    "runtime-main.js.map": "/Kaasid/static/js/runtime-main.befeb563.js.map",
+    "static/js/2.cbe3cfda.chunk.js": "/Kaasid/static/js/2.cbe3cfda.chunk.js",
+    "static/js/2.cbe3cfda.chunk.js.map": "/Kaasid/static/js/2.cbe3cfda.chunk.js.map",
+    "static/js/3.b6ead5c2.chunk.js": "/Kaasid/static/js/3.b6ead5c2.chunk.js",
+    "static/js/3.b6ead5c2.chunk.js.map": "/Kaasid/static/js/3.b6ead5c2.chunk.js.map",
+    "index.html": "/Kaasid/index.html",
+    "static/css/main.12ffd73b.chunk.css.map": "/Kaasid/static/css/main.12ffd73b.chunk.css.map",
+    "static/js/2.cbe3cfda.chunk.js.LICENSE.txt": "/Kaasid/static/js/2.cbe3cfda.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.befeb563.js",
+    "static/js/2.cbe3cfda.chunk.js",
+    "static/css/main.12ffd73b.chunk.css",
+    "static/js/main.7aa47546.chunk.js"
+  ]
+}
